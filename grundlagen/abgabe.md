@@ -17,3 +17,5 @@ Ein SW Fehler erfüllt die Anforderung nicht.
 z.B.  die ladezeit einer Seite ist 8 Sekunden lang, gefordert wurden 2 Sekunden
 
 Ein SW Mangel erfüllt die Anforderung nicht angemessen.
+
+# Aufgabe 3
