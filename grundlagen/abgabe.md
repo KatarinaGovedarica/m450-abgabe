@@ -20,7 +20,9 @@ Ein SW Mangel erfüllt die Anforderung nicht angemessen.
 
 # Aufgabe 3
 
+[ordner](code/src)
 
 # Aufgabe 3 (Bonus)
 
 Die If Reihenfolge ist falsch. sobald extras >= 3 ist, wird der code sofort ausgeführt. wenn jemand 5 oder mehr extras hat nimmt der code trotzdem 10% weil er nicht zur zweiten Bedingung kommt. 
+
