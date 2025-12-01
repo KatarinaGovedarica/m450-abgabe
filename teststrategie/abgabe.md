@@ -1,12 +1,16 @@
 # Aufgabe 1
 
-Nr.	| Bedingung (abstrakt)	| Erwarteter Rabatt
-A1	| Preis < 15’000	| 0 %
-A2	| 15’000 ≤ Preis ≤ 20’000	| 5 %
-A3	| 20’000 < Preis < 25’000	| 7 %
-A4	| Preis ≥ 25’000	| 8.5 %
+## Abstrakte Testfälle
 
-## Übung 2
+| Nr. | Bedingung (abstrakt)         | Erwarteter Rabatt |
+|-----|-------------------------------|-------------------|
+| A1  | Preis < 15'000                | 0 %               |
+| A2  | 15'000 ≤ Preis ≤ 20'000       | 5 %               |
+| A3  | 20'000 < Preis < 25'000       | 7 %               |
+| A4  | Preis ≥ 25'000                | 8.5 %             |
+
+
+## Konkrete Testfälle
 
 | Nr. | Preis (CHF) | Rabatt erwartet |
 |-----|-------------|------------------|
@@ -18,4 +22,5 @@ A4	| Preis ≥ 25’000	| 8.5 %
 | T6  | 24999       | 7 %              |
 | T7  | 25000       | 8.5 %            |
 | T8  | 30000       | 8.5 %            |
+
 
