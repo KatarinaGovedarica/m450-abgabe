@@ -1,4 +1,4 @@
-## Übung 1
+# Aufgabe 1
 
 Nr.	| Bedingung (abstrakt)	| Erwarteter Rabatt
 A1	| Preis < 15’000	| 0 %
@@ -18,3 +18,4 @@ A4	| Preis ≥ 25’000	| 8.5 %
 | T6  | 24999       | 7 %              |
 | T7  | 25000       | 8.5 %            |
 | T8  | 30000       | 8.5 %            |
+
