@@ -23,4 +23,14 @@
 | T7  | 25000       | 8.5 %            |
 | T8  | 30000       | 8.5 %            |
 
+# Aufgabe 2
+
+| ID | Beschreibung | Erwartetes Resultat | Effektives Resultat | Status | Mögliche Ursache |
+|----|--------------|----------------------|----------------------|--------|------------------|
+| 1  | Benutzer gibt Standort ein und klickt „Auto suchen“ | Liste mit verfügbaren Autos wird angezeigt | – | – | – |
+| 2  | Benutzer wählt ein Datum für Abholung und Rückgabe | Webseite zeigt verfügbare Fahrzeuge basierend auf Datum | – | – | – |
+| 3  | Benutzer öffnet die Fahrzeugdetails eines Autos | Detailseite zeigt Preis, Modell, Bedingungen | – | – | – |
+| 4  | Benutzer versucht, ein Auto zu buchen | Buchungsformular öffnet sich ohne Fehler | – | – | – |
+| 5  | Benutzer nutzt Filter „Kleinwagen“ | Nur Kleinwagen erscheinen in der Liste | – | – | – |
+
 
