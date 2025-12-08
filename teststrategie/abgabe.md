@@ -40,7 +40,7 @@
 
 | Test | Testfall | Erwartetes Resultat | Resultat | 
 |-----|-------------|-------------------|----------|
-| 1   | ok          | ?                 |          |
+| 1   | Buchstaben der nicht im Menü ist, eingeben          | Fehlermeldung "Geben sie einen gültigen Buchstaben ein"                 |  Fehlermeldung        |
 | 2   | ok          | ?                 |          |
 | 3   | ok          | ?                 |          |
 | 4   | ok          | ?                 |          |
@@ -48,4 +48,5 @@
 | 6   | ok          | ?                 |          |
 | 7   | ok          | ?                 |          |
 | 8   | ok          | ?                 |          |
+
 
