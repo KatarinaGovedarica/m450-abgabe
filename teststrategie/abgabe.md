@@ -31,7 +31,7 @@
 | 2  | Benutzer wählt ein Datum für Abholung und Rückgabe | Webseite zeigt verfügbare Fahrzeuge basierend auf Datum | – | – | – |
 | 3  | Benutzer öffnet die Fahrzeugdetails eines Autos | Detailseite zeigt Preis, Modell, Bedingungen | – | – | – |
 | 4  | Benutzer versucht, ein Auto zu buchen | Buchungsformular öffnet sich ohne Fehler | – | – | – |
-| 5  | Benutzer nutzt Filter „Kleinwagen“ | Nur Kleinwagen erscheinen in der Liste | – | – | – |
+| 5  | Benutzer wählt ein Fahrer Alter aus | Bei unter 25 wird eine Young Driver Fee berechnet, bei 25+ nicht | – | – | – |
 
 
 # Aufgabe 3
@@ -61,6 +61,7 @@
 - Was würden Sie am Code generell verbessern, welche Best Practices fallen Ihnen ein?
 
 Eingaben richtig validieren, Fehlermeldungen hinzufügen. Geld nicht als double sondern als BigDecimal speichern. bigdecimal speichert nummern so wie man sie schreibt!
+
 
 
 
