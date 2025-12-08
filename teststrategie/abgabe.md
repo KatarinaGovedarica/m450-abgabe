@@ -34,3 +34,17 @@
 | 5  | Benutzer nutzt Filter „Kleinwagen“ | Nur Kleinwagen erscheinen in der Liste | – | – | – |
 
 
+# Aufgabe 3
+
+- Mögliche Black-Box Testfälle
+
+| Test | Testfall | Erwartetes Resultat | Resultat | 
+|-----|-------------|------------------|
+| 1   | ok          | ?                |
+| 2   | ok          | ?                |
+| 3   | ok          | ?                |
+| 4   | ok          | ?                |
+| 5   | ok          | ?                |
+| 6   | ok          | ?                |
+| 7   | ok          | ?                |
+| 8   | ok          | ?                |
