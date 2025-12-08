@@ -58,6 +58,9 @@
 | 4    | `Bank.createAccount(String, Currency, double)` | Neues Konto anlegen                                                 | Konto wird erstellt und zur Liste hinzugefügt       |
 | 5    | `Counter.convertCurrency(...)`            | Betrag zwischen Währungen umrechnen                                 | Betrag wird mit richtigem Kurs multipliziert, sonst unverändert |
 
+- Was würden Sie am Code generell verbessern, welche Best Practices fallen Ihnen ein?
+
+Eingaben richtig validieren, Fehlermeldungen hinzufügen. Geld nicht als double sondern als BigDecimal speichern. bigdecimal speichert nummern so wie man sie schreibt!
 
 
 
