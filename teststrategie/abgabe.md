@@ -41,12 +41,23 @@
 | Test | Testfall | Erwartetes Resultat | Resultat | 
 |-----|-------------|-------------------|----------|
 | 1   | Buchstaben der nicht im Menü ist, eingeben          | Fehlermeldung "Geben sie einen gültigen Buchstaben ein"                 |  Fehlermeldung        |
-| 2   | ok          | ?                 |          |
-| 3   | ok          | ?                 |          |
-| 4   | ok          | ?                 |          |
-| 5   | ok          | ?                 |          |
-| 6   | ok          | ?                 |          |
-| 7   | ok          | ?                 |          |
-| 8   | ok          | ?                 |          |
+| 2   | Ungültige Währung eingeben          | Fehlermeldung                 | Fehlermeldung         |
+| 3   | Zahl im Nachnamen bei Kontoerstellung eingeben          | Fehlermeldung                 | Speichert die Zahl im Nachnamen. keine Fehlermeldung         |
+| 4   | Existierende Kontozahl eingeben          | Konto wird angezeigt mit Optionen                 | Konto wird angezeigt mit Optionen         |
+| 5   | Mehr von einem Konto abheben als Geld auf dem Konto          | Fehlermeldung                 | Fehlermeldung         |
+| 6   | 'Ü' um auf ein anderes Konto zu überweisen          | Auswahl welches Konto                 | Fehlermeldung         |
+
+
+- White-Box-Testfälle
+
+| Test | Methode                                   | Was wird geprüft?                                                   | Erwartetes Resultat                                  |
+|------|-------------------------------------------|---------------------------------------------------------------------|-----------------------------------------------------|
+| 1    | `Account.deposit(double amount)`          | Einzahlen auf ein Konto                                             | Kontostand erhöht sich um den eingezahlten Betrag   |
+| 2    | `Account.withdraw(double amount)`         | Abheben mit genug / zu wenig Geld                                   | Genug Geld → true und Kontostand sinkt; zu wenig → false, Kontostand bleibt gleich |
+| 3    | `Bank.getAccount(int nr)`                 | Konto über Kontonummer suchen                                       | Bei existierender Nummer → Konto; sonst → `null`    |
+| 4    | `Bank.createAccount(String, Currency, double)` | Neues Konto anlegen                                                 | Konto wird erstellt und zur Liste hinzugefügt       |
+| 5    | `Counter.convertCurrency(...)`            | Betrag zwischen Währungen umrechnen                                 | Betrag wird mit richtigem Kurs multipliziert, sonst unverändert |
+
+
 
 
