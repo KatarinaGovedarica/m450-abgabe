@@ -25,6 +25,8 @@
 
 # Aufgabe 2
 
+Website:  https://www.sixt.com/
+
 | ID | Beschreibung | Erwartetes Resultat | Effektives Resultat | Status | Mögliche Ursache |
 |----|--------------|----------------------|----------------------|--------|------------------|
 | 1  | Benutzer gibt Standort ein und klickt „Auto suchen“ | Liste mit verfügbaren Autos wird angezeigt | – | – | – |
@@ -61,6 +63,7 @@
 - Was würden Sie am Code generell verbessern, welche Best Practices fallen Ihnen ein?
 
 Eingaben richtig validieren, Fehlermeldungen hinzufügen. Geld nicht als double sondern als BigDecimal speichern. bigdecimal speichert nummern so wie man sie schreibt!
+
 
 
 
